@@ -1,0 +1,22 @@
+/** Config */
+@import 'config/variables';
+@import 'config/external';
+
+/** Common */
+@import 'common/global';
+
+/** Components */
+@import 'components';
+
+/** Partials */
+@import 'partials/header';
+@import 'partials/footer';
+
+/** Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
+
+/** Owl Carousel */
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+
+/** Pages */
+@import 'pages/home';
